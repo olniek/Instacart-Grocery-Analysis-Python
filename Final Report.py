@@ -139,8 +139,6 @@ df_cust_excl_dep = df_cust_excl.merge(department_mapping, on='department_id', ho
 df_cust_excl_dep.to_pickle(os.path.join(path,'02 Data','Prepared Data','df_cust_excl_dep'))
 
 
-# ### Task 6
-
 # Create an appropriate visualization to show the distribution of profiles.
 
 # Make a pie chart showing the distribution of age groups
@@ -196,8 +194,6 @@ plt.show()
 # Export
 depts_bar.figure.savefig(os.path.join(path, '04 Analysis','Visualizations', 'depts_bar'))
 
-
-# ### Task 7
 
 # Aggregate the max, mean, and min variables on a customer-profile level for usage frequency and expenditure.
 
